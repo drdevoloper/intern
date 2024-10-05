@@ -19,14 +19,14 @@ body {
 }
 
 canvas {
-    width: 100%; /* Make the canvas responsive */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 .input {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align labels and inputs to the left */
+    align-items: flex-start;
     margin: 20px 0;
 }
 
@@ -38,17 +38,17 @@ input[type="file"], input[type="text"], button {
     padding: 10px;
     margin: 5px;
     font-size: 16px;
-    width: 100%; /* Make inputs full width */
-    max-width: 300px; /* Limit input width */
+    width: 100%; 
+    max-width: 300px; 
 }
 
 button {
-    background-color: #28a745; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #28a745;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
 }
 
 button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
