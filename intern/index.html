@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Image Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kids Image Editor</h1>
+        
+        <div class="image-area">
+            <canvas id="image-canvas" width="800" height="400"></canvas>
+        </div>
+
+        <input type="file" id="image-upload" accept="image/*">
+        
+        <div class="input">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name">
+            <label for="std">Std:</label>
+            <input type="text" id="std" placeholder="Enter Std">
+            <label for="sec">Sec:</label>
+            <input type="text" id="sec" placeholder="Enter Sec">
+            <label for="Subject">Subject:</label>
+            <input type="text" id="subject" placeholder="Enter Subject">
+            <label for="school">School:</label>
+            <input type="text" id="school" placeholder="Enter School">
+        </div>
+        
+        <button onclick="generateMergedImage()">Generate Image</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
